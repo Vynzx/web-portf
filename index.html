@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        nav a, #home h1, #home p, #home a, #edu h2, #edu p, #edu li, footer, footer a {
+            transition: all 0.5s ease-in-out;
+            transform-origin: center; 
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: color 0.5s ease-in-out;
+        }
+
+        nav a:hover {
+            transform: scale(1.1);
+            color: #ff9800;
+        }
+
+        section {
+            height: 100vh;
+            padding-top: 50px;
+            text-align: center;
+        }
+
+        #home {
+            background-color: #f4f4f4;
+        }
+        
+        #home h1 {
+            margin-top: 200px;
+            font-size: 3em;
+            color: #333;
+            transition: 0.7s;
+        }
+
+        #home h1:hover {
+            color: #63bb52;
+        }
+        
+        #home p {
+            font-size: 1.2em;
+            color: #666;
+            max-width: 600px;
+            margin: 25px auto 40px auto ;
+        }
+        
+        #home p:hover {
+            transform: scale(0.95);
+            color: #333;
+        }
+
+        #home a {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: 0.7s;
+        }
+
+        #home a:hover {
+            transform: scale(1.1);
+            background-color: #4886bb;
+            color: #fff;
+        }
+
+        #edu {
+            background-color: #fff;
+            padding: 50px 0;
+        }
+
+        #edu h2 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        #edu p {
+            font-size: 1.2em;
+            color: #666;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        #edu p:hover {
+            transform: translateY(-10px);
+            color: #333;
+        }
+
+        #edu ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #edu li {
+            font-size: 1.2em;
+            color: #666;
+            padding: 10px;
+        }
+
+        #edu li:hover {
+            transform: scale(1.05);
+            color: #318cdc;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Edu</a>
+    </nav>
+
+    <section id="home">
+        <h1>Ibrahim Muliatama</h1>
+        <p>
+           Seorang siswa SMK yang memiliki keterkaitan untuk belajar hal-hal baru di dunia IT.
+        </p>
+        <a href="#du">Kontak</a>
+    </section>
+
+    <section id="edu">
+        <h2>Education</h2>
+        <p>
+           Saya memiliki jenjang pendidikan yang masih saya tempuh sampai sekarang.
+        </p>
+        <ul>
+            <li>SMK (2023 - Present)</li>
+            <li>SMP (2020 - 2023)</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024</p>
+    </footer>
+
+</body>
+</html>
